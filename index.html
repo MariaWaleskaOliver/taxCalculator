@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Document</title>
+    <style>body{background-image:url(image/img2.jpg);} </style> 
+    <style>form{background-image:url(image/img6.jpg);} </style> 
+    <style>div{background-image:url(image/img6.jpg);} </style> 
+ 
+</head>
+<body>
+    <h1>&hearts; Tax Calculator &hearts; </h1>  
+
+    <form method="myForm" method="Post" onsubmit="return formSubmit();">
+        <label>Name*</label> 
+        <input id="name"  type="text" name="name"/> <br><br>
+
+         <label>Phone*</label>
+         <input id="phone" placeholder="XXX-XXX-XXXX" type="phone" name="phone"/> <br><br>
+
+         <label>Email*</label>
+         <input id="email" type="email" name="email"/> <br><br>
+
+         <label>Impoyment Income*</label>
+         <input id="income" type ="text" name="income"/> <br><br>
+
+         <label>Other Income</label>
+         <input id="otherIncome" type="text" name="otherIncome"/> <br><br>
+
+         <label>Income Taxes Paid*</label>
+         <input id="IncomeTaxPaid"  type="text" name="IncomeTaxPaid"/> <br><br>
+
+         <br><br><br>
+
+         <input type = "submit" value= "Calculate"><br>
+         <p id ="errorsMsg"></p>
+         <br><br>
+    </form>
+
+    <div class="OutputClass">
+        <p id="OutputId">Output</p>
+    </div> 
+
+</body>
+</html>
